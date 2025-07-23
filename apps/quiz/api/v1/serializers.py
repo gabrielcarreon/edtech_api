@@ -68,13 +68,6 @@ class AIGenerationSerializer(serializers.Serializer, FileValidationMixin):
     )
     question_type = QuestionTypeSerializer()
 
-
-    def validate_question_type(self, value):
-        pprint(value)
-        # if not any(val > 0 for val in value.values()):
-        #     raise serializers.ValidationError("At least one question type must be greater than zero.")
-        return value
-
     def validate_attachments(self, files):
         for file in files:
             self.validate_file(file)
