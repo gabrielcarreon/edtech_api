@@ -1,0 +1,99 @@
+{
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "Which of the following is considered one of the most secure instruments for international trade?",
+      "difficulty": "easy",
+      "answers": [
+        { "answer": "Letter of Credit", "is_correct": true },
+        { "answer": "Open Account", "is_correct": false },
+        { "answer": "Consignment", "is_correct": false }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Open account transactions are typically considered the highest risk for exporters.",
+      "difficulty": "easy",
+      "answers": [
+        { "answer": "True", "is_correct": false },
+        { "answer": "False", "is_correct": true }
+      ]
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "Consignment in international trade is a variation of open account where payment is sent to the exporter only after ____. ",
+      "difficulty": "easy",
+      "answers": [
+        { "answer": "the goods are sold by the foreign distributor to the end customer", "is_correct": true },
+        { "answer": "the invoice is issued", "is_correct": false },
+        { "answer": "the goods are shipped", "is_correct": false }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which document typically involves the importer paying the face amount at sight?",
+      "difficulty": "easy",
+      "answers": [
+        { "answer": "Document against payment", "is_correct": true },
+        { "answer": "Document against acceptance", "is_correct": false },
+        { "answer": "Letter of Credit", "is_correct": false }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "Cash-in-Advance eliminates credit risk for the exporter.",
+      "difficulty": "easy",
+      "answers": [
+        { "answer": "True", "is_correct": true },
+        { "answer": "False", "is_correct": false }
+      ]
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "A ____ is a commitment by a bank that payment will be made to the exporter if the terms are met.",
+      "difficulty": "easy",
+      "answers": [
+        { "answer": "Letter of Credit", "is_correct": true },
+        { "answer": "Open Account", "is_correct": false },
+        { "answer": "Consignment", "is_correct": false }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "question": "What type of LC allows further transfer of payment to another supplier in the supply chain?",
+      "difficulty": "easy",
+      "answers": [
+        { "answer": "Transferable LC", "is_correct": true },
+        { "answer": "Un-transferable LC", "is_correct": false },
+        { "answer": "Revocable LC", "is_correct": false }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "A Confirmed LC offers a guarantee of payment from a second bank to the seller.",
+      "difficulty": "easy",
+      "answers": [
+        { "answer": "True", "is_correct": true },
+        { "answer": "False", "is_correct": false }
+      ]
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "A ____ payment method involves the buyer completing full payment before the goods are shipped.",
+      "difficulty": "easy",
+      "answers": [
+        { "answer": "Cash-in-Advance", "is_correct": true },
+        { "answer": "Letter of Credit", "is_correct": false },
+        { "answer": "Consignment", "is_correct": false }
+      ]
+    },
+    {
+      "type": "essay",
+      "question": "Explain why Letters of Credit are considered highly secure for international trade transactions.",
+      "difficulty": "easy",
+      "answers": [
+        { "answer":"Letters of Credit are considered highly secure because they involve a commitment from a bank to pay the exporter, provided that all specified terms and conditions are met and verified through the presentation of required documents, thus reducing the risk of non-payment for both parties.", "is_correct": true }
+      ]
+    }
+  ]
+}
