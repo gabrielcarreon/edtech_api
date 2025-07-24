@@ -11,6 +11,9 @@ load_dotenv()
 
 class FileValidationMixin:
     def validate_file(self, file, max_size=int(os.getenv("MAX_FILE_SIZE_MB")) * 1024 * 1024, allowed_mime_types=None):
+        if file.size > max_size:
+            raise serializers.ValidationError(f"{file.name} cannot exceed size limit of {max_size} MB")
+    
         if allowed_mime_types is None:
             allowed_mime_types = [
                 "application/msword",  # .doc
@@ -20,9 +23,6 @@ class FileValidationMixin:
                 "application/pdf",  # .pdf
             ]
        
-        if file.size > max_size:
-            raise serializers.ValidationError(f"{file.name} cannot exceed size limit of {max_size} MB")
-    
         if file.content_type not in allowed_mime_types:
             raise serializers.ValidationError(f"{file.name} has an unsupported type of {file.content_type}")
 
@@ -30,8 +30,8 @@ class FileValidationMixin:
 
 
 class ExtractContent:
-    def extract_document(document):
-        match document.content_type:
+    def extract_document(content_type, document):
+        match content_type:
             case ("application/msword" | "application/vnd.openxmlformats-officedocument.wordprocessingml.document"):
                 return ExtractContent.extract_docx(document)
             case "application/pdf":

@@ -2,46 +2,19 @@
   "questions": [
     {
       "type": "multiple_choice",
-      "question": "Which of the following is considered one of the most secure instruments for international trade?",
+      "question": "According to the Code of Ethics for Customs Brokers, what is subordinate to the professional duties of a Customs Broker?",
       "difficulty": "easy",
       "answers": [
-        { "answer": "Letter of Credit", "is_correct": true },
-        { "answer": "Open Account", "is_correct": false },
-        { "answer": "Consignment", "is_correct": false }
+        { "answer": "Financial rewards", "is_correct": false },
+        { "answer": "Public service", "is_correct": true },
+        { "answer": "Client satisfaction", "is_correct": false },
+        { "answer": "Business growth", "is_correct": false },
+        { "answer": "None of the following", "is_correct": false }
       ]
     },
     {
       "type": "true_false",
-      "question": "Open account transactions are typically considered the highest risk for exporters.",
-      "difficulty": "easy",
-      "answers": [
-        { "answer": "True", "is_correct": false },
-        { "answer": "False", "is_correct": true }
-      ]
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "Consignment in international trade is a variation of open account where payment is sent to the exporter only after ____. ",
-      "difficulty": "easy",
-      "answers": [
-        { "answer": "the goods are sold by the foreign distributor to the end customer", "is_correct": true },
-        { "answer": "the invoice is issued", "is_correct": false },
-        { "answer": "the goods are shipped", "is_correct": false }
-      ]
-    },
-    {
-      "type": "multiple_choice",
-      "question": "Which document typically involves the importer paying the face amount at sight?",
-      "difficulty": "easy",
-      "answers": [
-        { "answer": "Document against payment", "is_correct": true },
-        { "answer": "Document against acceptance", "is_correct": false },
-        { "answer": "Letter of Credit", "is_correct": false }
-      ]
-    },
-    {
-      "type": "true_false",
-      "question": "Cash-in-Advance eliminates credit risk for the exporter.",
+      "question": "A Customs Broker shall not reveal trade secrets of his/her clients.",
       "difficulty": "easy",
       "answers": [
         { "answer": "True", "is_correct": true },
@@ -49,50 +22,47 @@
       ]
     },
     {
-      "type": "fill_in_the_blank",
-      "question": "A ____ is a commitment by a bank that payment will be made to the exporter if the terms are met.",
-      "difficulty": "easy",
+      "type": "fill_in_the_blanks",
+      "question": "A Customs Broker in government service shall adhere to the ____ principles enunciated in this Code of Ethics.",
+      "difficulty": "moderate",
       "answers": [
-        { "answer": "Letter of Credit", "is_correct": true },
-        { "answer": "Open Account", "is_correct": false },
-        { "answer": "Consignment", "is_correct": false }
+        { "answer": "ethical", "is_correct": false },
+        { "answer": "public service", "is_correct": false },
+        { "answer": "general", "is_correct": false },
+        { "answer": "general principles", "is_correct": true },
+        { "answer": "None of the above", "is_correct": false }
       ]
     },
     {
       "type": "multiple_choice",
-      "question": "What type of LC allows further transfer of payment to another supplier in the supply chain?",
-      "difficulty": "easy",
+      "question": "What should a Customs Broker do when dealing with government agencies?",
+      "difficulty": "moderate",
       "answers": [
-        { "answer": "Transferable LC", "is_correct": true },
-        { "answer": "Un-transferable LC", "is_correct": false },
-        { "answer": "Revocable LC", "is_correct": false }
-      ]
-    },
-    {
-      "type": "true_false",
-      "question": "A Confirmed LC offers a guarantee of payment from a second bank to the seller.",
-      "difficulty": "easy",
-      "answers": [
-        { "answer": "True", "is_correct": true },
-        { "answer": "False", "is_correct": false }
-      ]
-    },
-    {
-      "type": "fill_in_the_blank",
-      "question": "A ____ payment method involves the buyer completing full payment before the goods are shipped.",
-      "difficulty": "easy",
-      "answers": [
-        { "answer": "Cash-in-Advance", "is_correct": true },
-        { "answer": "Letter of Credit", "is_correct": false },
-        { "answer": "Consignment", "is_correct": false }
+        { "answer": "Obstruct objectives", "is_correct": false },
+        { "answer": "Conduct himself with professionalism", "is_correct": true },
+        { "answer": "Attempt to influence officials unlawfully", "is_correct": false },
+        { "answer": "Ignore regulations", "is_correct": false },
+        { "answer": "None of the following", "is_correct": false }
       ]
     },
     {
       "type": "essay",
-      "question": "Explain why Letters of Credit are considered highly secure for international trade transactions.",
-      "difficulty": "easy",
+      "question": "Explain the importance of professionalism for Customs Brokers when dealing with government agencies.",
+      "difficulty": "hard",
       "answers": [
-        { "answer":"Letters of Credit are considered highly secure because they involve a commitment from a bank to pay the exporter, provided that all specified terms and conditions are met and verified through the presentation of required documents, thus reducing the risk of non-payment for both parties.", "is_correct": true }
+        {
+          "answer": "A Customs Broker must conduct himself with dignity, be knowledgeably prepared, and avoid acts that interfere with government objectives. Professionalism ensures integrity, fosters trust, and upholds the agency's reputation, which is essential for effective and lawful operations.",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "type": "true_false",
+      "question": "A Customs Broker shall actively participate in activities of the professional organization of customs brokers.",
+      "difficulty": "moderate",
+      "answers": [
+        { "answer": "True", "is_correct": true },
+        { "answer": "False", "is_correct": false }
       ]
     }
   ]

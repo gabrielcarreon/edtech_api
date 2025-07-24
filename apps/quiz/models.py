@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class Quizzes(models.Model):
+class Quiz(models.Model):
     TYPE_CHOICES = [
         ("ai", "AI"),
         ("manual", "Manual")
@@ -15,30 +15,27 @@ class Quizzes(models.Model):
     description = models.TextField(null=True)
     deleted_at = models.DateTimeField(null=True)
 
-    def __str__(self):
-        return self.title
-    
     class Meta:
         ordering = ["updated_at", "title"]
     
-class Questions(models.Model):
+class Question(models.Model):
     TYPE_CHOICES = [
         ("multiple_choice", "Multiple Choice"),
         ("true_or_false", "True or False"),
         ("essay", "Essay"),
-        ("fill_in_the_blanks", "Fill in the blanks")
+        ("fill_in_the_blank", "Fill in the blanks")
     ]
 
     DIFFICULTY_CHOICES = [
         ("easy", "Easy"),
-        ("medium", "Medium"),
+        ("moderate", "Moderate"),
         ("hard", "Hard"),
     ]
 
     created_at = models.DateTimeField(auto_created=True)
     updated_at = models.DateTimeField(auto_now_add=True)
     is_active = models.BooleanField(default=False)
-    quiz = models.ForeignKey(Quizzes, on_delete=models.CASCADE)
+    quiz = models.ForeignKey(Quiz, related_name="questions", on_delete=models.CASCADE)
     question = models.TextField()
     type = models.CharField(choices=TYPE_CHOICES, null=True)
     difficulty = models.CharField(choices=DIFFICULTY_CHOICES, null=False)
@@ -47,11 +44,11 @@ class Questions(models.Model):
     def __str__(self):
         return self.title
     
-class Answers(models.Model):
+class Answer(models.Model):
 
     created_at = models.DateTimeField(auto_created=True)
     updated_at = models.DateTimeField(auto_now_add=True)
-    question = models.ForeignKey(Questions, on_delete=models.CASCADE)
+    question = models.ForeignKey(Question, related_name="answers", on_delete=models.CASCADE)
     answer = models.TextField()
     is_correct = models.BooleanField(default=False)
     deleted_at = models.DateTimeField(null=True)

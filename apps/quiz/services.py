@@ -1,7 +1,7 @@
 from django.db import transaction
 from pprint import pprint
 from common.mixins.file_mixins import ExtractContent
-from apps.quiz.models import Quizzes, Questions, Answers
+from apps.quiz.models import Quiz, Question, Answer
 from openai import OpenAI
 from dotenv import load_dotenv
 load_dotenv()
@@ -39,7 +39,7 @@ class QuizSvc:
 
     @staticmethod
     def create_questions(**kwargs):
-        return Quizzes.objects.create(
+        return Quiz.objects.create(
             created_at=kwargs.get("created_at"),
             title=kwargs.get("title"),
             description=kwargs.get("description"),
@@ -49,7 +49,7 @@ class QuizSvc:
 
     @staticmethod
     def add_question(quiz, **kwargs):
-        return Questions.objects.create(
+        return Question.objects.create(
             created_at=kwargs.get("created_at"),
             question=kwargs.get("question"),
             type=kwargs.get("type"),
@@ -59,7 +59,7 @@ class QuizSvc:
 
     @staticmethod
     def add_answer(question, **kwargs):
-        return Answers.objects.create(
+        return Answer.objects.create(
             created_at=kwargs.get("created_at"),
             answer=kwargs.get("answer"),
             is_correct=bool(kwargs.get("is_correct")),
