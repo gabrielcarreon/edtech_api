@@ -2,67 +2,351 @@
   "questions": [
     {
       "type": "multiple_choice",
-      "question": "According to the Code of Ethics for Customs Brokers, what is subordinate to the professional duties of a Customs Broker?",
-      "difficulty": "easy",
-      "answers": [
-        { "answer": "Financial rewards", "is_correct": false },
-        { "answer": "Public service", "is_correct": true },
-        { "answer": "Client satisfaction", "is_correct": false },
-        { "answer": "Business growth", "is_correct": false },
-        { "answer": "None of the following", "is_correct": false }
-      ]
-    },
-    {
-      "type": "true_false",
-      "question": "A Customs Broker shall not reveal trade secrets of his/her clients.",
-      "difficulty": "easy",
-      "answers": [
-        { "answer": "True", "is_correct": true },
-        { "answer": "False", "is_correct": false }
-      ]
-    },
-    {
-      "type": "fill_in_the_blanks",
-      "question": "A Customs Broker in government service shall adhere to the ____ principles enunciated in this Code of Ethics.",
+      "question": "According to R.A. 9280, who creates and appoints members of the Professional Regulatory Board for Customs Brokers?",
       "difficulty": "moderate",
+      "points": 1,
       "answers": [
-        { "answer": "ethical", "is_correct": false },
-        { "answer": "public service", "is_correct": false },
-        { "answer": "general", "is_correct": false },
-        { "answer": "general principles", "is_correct": true },
-        { "answer": "None of the above", "is_correct": false }
+        {
+          "answer": "The President of the Philippines",
+          "is_correct": true
+        },
+        {
+          "answer": "The Secretary of Trade and Industry",
+          "is_correct": false
+        },
+        {
+          "answer": "The Professional Regulation Commission",
+          "is_correct": false
+        },
+        {
+          "answer": "The Chairman of the Customs Bureau",
+          "is_correct": false
+        },
+        {
+          "answer": "None of the following",
+          "is_correct": false
+        }
       ]
     },
     {
       "type": "multiple_choice",
-      "question": "What should a Customs Broker do when dealing with government agencies?",
+      "question": "Which section of R.A. 9280 provides the scope of practice of customs brokers?",
+      "difficulty": "moderate",
+      "points": 1,
+      "answers": [
+        {
+          "answer": "Sec 6",
+          "is_correct": true
+        },
+        {
+          "answer": "Sec 5",
+          "is_correct": false
+        },
+        {
+          "answer": "Sec 8",
+          "is_correct": false
+        },
+        {
+          "answer": "Sec 15",
+          "is_correct": false
+        },
+        {
+          "answer": "None of the following",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Under the Code of Ethics for Customs Brokers, which of the following is NOT a duty when dealing with clients?",
+      "difficulty": "easy",
+      "points": 1,
+      "answers": [
+        {
+          "answer": "Hold inviolable the trust and confidence reposed on him",
+          "is_correct": false
+        },
+        {
+          "answer": "Not overcharge or undercharge on professional services",
+          "is_correct": false
+        },
+        {
+          "answer": "Revealing trade secrets without consent",
+          "is_correct": true
+        },
+        {
+          "answer": "Exercise prudence and caution in dealings",
+          "is_correct": false
+        },
+        {
+          "answer": "None of the following",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "question": "What does SEC. 19 of R.A. 9280 specify about the Certificate of Registration?",
+      "difficulty": "moderate",
+      "points": 1,
+      "answers": [
+        {
+          "answer": "It remains valid until revoked or suspended",
+          "is_correct": true
+        },
+        {
+          "answer": "It is valid only for one year",
+          "is_correct": false
+        },
+        {
+          "answer": "It must be renewed annually",
+          "is_correct": false
+        },
+        {
+          "answer": "It is valid only for five years",
+          "is_correct": false
+        },
+        {
+          "answer": "None of the above",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which section of the Customs Brokers Act of 2004 discusses the revocation of registration?",
+      "difficulty": "hard",
+      "points": 1,
+      "answers": [
+        {
+          "answer": "SEC. 21",
+          "is_correct": false
+        },
+        {
+          "answer": "SEC. 20",
+          "is_correct": true
+        },
+        {
+          "answer": "SEC. 22",
+          "is_correct": false
+        },
+        {
+          "answer": "SEC. 19",
+          "is_correct": false
+        },
+        {
+          "answer": "None of the following",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Under the rules of the WTO, what is the main purpose regarding trade?",
+      "difficulty": "easy",
+      "points": 1,
+      "answers": [
+        {
+          "answer": "To open trade for all members equally",
+          "is_correct": true
+        },
+        {
+          "answer": "To restrict trade among member nations",
+          "is_correct": false
+        },
+        {
+          "answer": "To promote national protectionism",
+          "is_correct": false
+        },
+        {
+          "answer": "To eliminate all tariffs",
+          "is_correct": false
+        },
+        {
+          "answer": "None of the following",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_or_false",
+      "question": "The Harmonized System (HS) is used primarily for assessing tariffs and trade statistics.",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "answer": "True",
+          "is_correct": true
+        },
+        {
+          "answer": "False",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_or_false",
+      "question": "The ASEAN Declaration was signed by the founding five ASEAN countries in Bangkok, Thailand in 1967.",
       "difficulty": "moderate",
       "answers": [
-        { "answer": "Obstruct objectives", "is_correct": false },
-        { "answer": "Conduct himself with professionalism", "is_correct": true },
-        { "answer": "Attempt to influence officials unlawfully", "is_correct": false },
-        { "answer": "Ignore regulations", "is_correct": false },
-        { "answer": "None of the following", "is_correct": false }
+        {
+          "answer": "True",
+          "is_correct": true
+        },
+        {
+          "answer": "False",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "true_or_false",
+      "question": "Under the Incoterms 2020, Delivered at Place Unloaded (DPU) requires the seller to unload at the destination.",
+      "difficulty": "hard",
+      "answers": [
+        {
+          "answer": "True",
+          "is_correct": true
+        },
+        {
+          "answer": "False",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "The _____ is responsible for developing international standards and fostering cooperation to facilitate legitimate trade.",
+      "difficulty": "moderate",
+      "points": 1,
+      "answers": [
+        {
+          "answer": "World Customs Organization (WCO)",
+          "is_correct": true
+        },
+        {
+          "answer": "ASEAN",
+          "is_correct": false
+        },
+        {
+          "answer": "WTO",
+          "is_correct": false
+        },
+        {
+          "answer": "ICC",
+          "is_correct": false
+        },
+        {
+          "answer": "None of the above",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "The _____ agreement established the rules for the classification and coding of commodities for international trade.",
+      "difficulty": "moderate",
+      "points": 1,
+      "answers": [
+        {
+          "answer": "Harmonized System (HS)",
+          "is_correct": true
+        },
+        {
+          "answer": "UNCTAD",
+          "is_correct": false
+        },
+        {
+          "answer": "WTO",
+          "is_correct": false
+        },
+        {
+          "answer": "ASEAN FTAs",
+          "is_correct": false
+        },
+        {
+          "answer": "None of the above",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "The _____ is a law that provides mechanisms for imposing duties on products subsidized by foreign governments.",
+      "difficulty": "hard",
+      "points": 1,
+      "answers": [
+        {
+          "answer": "Anti-Dumping Act",
+          "is_correct": false
+        },
+        {
+          "answer": "Countervailing Duty Law",
+          "is_correct": true
+        },
+        {
+          "answer": "Safeguard Measures Act",
+          "is_correct": false
+        },
+        {
+          "answer": "TRADE Act",
+          "is_correct": false
+        },
+        {
+          "answer": "None of the above",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "The _____ provides the standard rules governing the issuance and handling of documentary credits in international trade.",
+      "difficulty": "hard",
+      "points": 1,
+      "answers": [
+        {
+          "answer": "UCP 600",
+          "is_correct": true
+        },
+        {
+          "answer": "WTO Agreement",
+          "is_correct": false
+        },
+        {
+          "answer": "Incoterms 2020",
+          "is_correct": false
+        },
+        {
+          "answer": "UNCTAD Convention",
+          "is_correct": false
+        },
+        {
+          "answer": "None of the above",
+          "is_correct": false
+        }
       ]
     },
     {
       "type": "essay",
-      "question": "Explain the importance of professionalism for Customs Brokers when dealing with government agencies.",
-      "difficulty": "hard",
+      "question": "Explain the key responsibilities of a customs broker as per R.A. 9280.",
+      "difficulty": "moderate",
+      "points": 4,
       "answers": [
         {
-          "answer": "A Customs Broker must conduct himself with dignity, be knowledgeably prepared, and avoid acts that interfere with government objectives. Professionalism ensures integrity, fosters trust, and upholds the agency's reputation, which is essential for effective and lawful operations.",
+          "answer": "A customs broker is responsible for the preparation and filing of customs documents, representing clients before government agencies, and ensuring compliance with customs laws and ethics as mandated by the law.",
           "is_correct": true
         }
       ]
     },
     {
-      "type": "true_false",
-      "question": "A Customs Broker shall actively participate in activities of the professional organization of customs brokers.",
-      "difficulty": "moderate",
+      "type": "essay",
+      "question": "Describe the differences between FOB and CFR Incoterms and their implications for the seller and buyer.",
+      "difficulty": "hard",
+      "points": 4,
       "answers": [
-        { "answer": "True", "is_correct": true },
-        { "answer": "False", "is_correct": false }
+        {
+          "answer": "FOB (Free On Board) requires the seller to deliver the goods on board the vessel at the port of shipment and transfer risk to the buyer once the goods are on board. The seller clears for export, but the buyer bears freight, insurance, and import costs. CFR (Cost and Freight) obligates the seller to deliver goods on board and also to pay for the freight to the destination port, with risk transferring at the port of shipment. The main difference is CFR includes the freight cost paid by the seller, while FOB does not include freight charges borne by the buyer after loading.",
+          "is_correct": true
+        }
       ]
     }
   ]

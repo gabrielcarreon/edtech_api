@@ -37,6 +37,7 @@ class Question(models.Model):
     is_active = models.BooleanField(default=False)
     quiz = models.ForeignKey(Quiz, related_name="questions", on_delete=models.CASCADE)
     question = models.TextField()
+    points = models.IntegerField()
     type = models.CharField(choices=TYPE_CHOICES, null=True)
     difficulty = models.CharField(choices=DIFFICULTY_CHOICES, null=False)
     deleted_at = models.DateTimeField(null=True)

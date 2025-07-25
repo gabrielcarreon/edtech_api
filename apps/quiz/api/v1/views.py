@@ -86,6 +86,9 @@ class QuizzesCreate(APIView):
             cleaned = raw.strip("`").replace("```json", "").replace("```", "").strip()
             parsed = json.loads(cleaned)
 
+            # with open(Path(os.getenv("PROJECT_PATH")) / "static" / "response.json", "r") as f:
+            #     parsed = json.load(f)
+
             QuizSvc.generate_quiz(
                 title=quiz_data.get("title"),
                 description=quiz_data.get("description"),

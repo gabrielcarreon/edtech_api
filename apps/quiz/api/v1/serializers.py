@@ -33,6 +33,7 @@ class QuestionSerializer(serializers.ModelSerializer):
     difficulty = serializers.ChoiceField(
         choices=["easy", "medium", "hard"]
     )
+    points = serializers.IntegerField()
     is_active = serializers.BooleanField()
     answers = AnswerSerializer(many=True, read_only=True)
 
@@ -44,11 +45,15 @@ class QuestionSerializer(serializers.ModelSerializer):
             "type",
             "difficulty",
             "is_active",
-            "answers"
+            "answers",
+            "points",
         ]
 
 
 class QuizSerializer(serializers.ModelSerializer):
+    created_at = serializers.DateTimeField(
+        read_only=True,
+    )
     title = serializers.CharField(
         required=True, 
         allow_blank=False,
@@ -78,6 +83,8 @@ class QuizSerializer(serializers.ModelSerializer):
     class Meta:
         model = Quiz
         fields = [
+            "created_at",
+            "updated_at",
             "id",
             "title", 
             "type",
